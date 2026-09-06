@@ -1,0 +1,170 @@
+/* ===== Basic Reset ===== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #222;
+    background-color: #fff;
+}
+
+
+/* ===== Navbar ===== */
+
+header {
+    width: 100%;
+    padding: 20px 8%;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* Logo */
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: #ff6b35;
+}
+
+
+/* Navigation Links */
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #222;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    color: #ff6b35;
+}
+
+
+/* Hire Me Button */
+
+.hire-btn {
+    text-decoration: none;
+    background-color: #ff6b35;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.hire-btn:hover {
+    background-color: #e85b28;
+}
+
+
+/* ===== Hero Section ===== */
+
+.hero {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 8%;
+}
+
+
+/* Hero Text */
+
+.hero-content {
+    max-width: 550px;
+}
+
+.welcome {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.hero-content h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.hero-content h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #ff6b35;
+}
+
+.hero-content p {
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+
+/* Buttons */
+
+.hero-buttons {
+    margin-top: 30px;
+    display: flex;
+    gap: 15px;
+}
+
+.primary-btn,
+.secondary-btn {
+    text-decoration: none;
+    padding: 13px 25px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.primary-btn {
+    background-color: #ff6b35;
+    color: white;
+}
+
+.secondary-btn {
+    border: 2px solid #ff6b35;
+    color: #ff6b35;
+}
+
+
+/* ===== Hero Image ===== */
+
+.hero-image {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-placeholder {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #ff6b35;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 100px;
+    font-weight: bold;
+}
