@@ -253,7 +253,7 @@ header {
     text-align: center;
 }
 
-.slills-content{
+.skills-content{
     max-width: 1100px;
     margin: auto;
 }
@@ -271,7 +271,7 @@ header {
     margin: 0 auto 40px;
 }
 
-.skills-container{
+.skill-container{
     display:flex;
     justify-content: center;
     gap: 25px;
@@ -339,4 +339,17 @@ header {
     .skill-card{
         width: 100%;
     }
+}
+
+/* ==== projects section ====*/
+
+.projects-section{
+    min-height: 70vh;
+    padding: 80px 8%;
+    text-align: center;
+}
+
+.projects-content{
+    max-width: 1100px;
+    margin: auto;
 }
