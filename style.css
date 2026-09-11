@@ -193,7 +193,7 @@ header {
 
     
 }
-
+/*
 @keyframes floating {
     from{
         transform: translateY(0);
@@ -202,7 +202,7 @@ header {
     to{
         transform: translateY(-15px);
     }
-}
+} */
 
 .about-section{
     min-height: 60vh;
@@ -447,4 +447,138 @@ header {
     background-color: #ff6b35;
     color: white;
     transform: translateY(-3px);
+}
+
+/* Education Section */
+
+.education-section{
+    min-height: 70vh;
+    padding: 80px 8%;
+    background-color: #fff8f3;
+    text-align: center;
+}
+
+.education-content{
+    max-width: 1100px;
+    margin: auto;
+}
+
+.education-content h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.education-intro{
+    font-size: 17px;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+.education-container{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.education-card{
+    width: 350px;
+    min-height: 180px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.10);
+    transition: 0.3s;
+}
+
+.education-card:hover{
+    transform: translateY(-8px);
+}
+
+.education-card h3{
+    font-size: 21px;
+    margin-bottom: 15px;
+    color: #ff6b35;
+}
+
+.education-college{
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.education-year{
+    margin-top: 12px;
+    font-weight: bold;
+    color: #222;
+}
+
+/* Contact Section */
+
+.contact-section{
+    min-height: 65vh;
+    padding: 80px 8%;
+    text-align: center;
+}
+
+.contact-content{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.contact-content h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.contact-intro{
+    font-size: 17px;
+    line-height: 1.8;
+    color: #555;
+    max-width: 700px;
+    margin: 0 auto 40px;
+}
+
+.contact-container{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.contact-card{
+    width: 220px;
+    min-height: 150px;
+    padding: 25px 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+    transition: 0.3s;
+}
+
+.contact-card:hover{
+    transform: translateY(-8px);
+}
+
+.contact-card h3{
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #ff6b35;
+}
+
+.contact-card p{
+    font-size: 17px;
+    color: #555;
+    word-break: break-word;
+}
+
+.contact-card a{
+    color: #ff6b35;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.contact-card a:hover{
+    text-decoration: underline;
 }
