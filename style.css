@@ -582,3 +582,74 @@ header {
 .contact-card a:hover{
     text-decoration: underline;
 }
+
+/* Main Responsive Design */
+
+@media (max-width: 768px){
+
+    /* Navbar */
+
+    header{
+        padding:20px 5%
+    }
+
+    .navbar{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .nav-links{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .nav-links a{
+        font-size: 14px;
+    }
+
+    .hire-btn{
+        padding: 10px 20px;
+    }
+
+    /* Hero Section */
+
+    .hero{
+        min-height: auto;
+        flex-direction: column;
+        text-align: center;
+        padding: 60px 5%;
+        gap: 40px;
+    }
+
+    .hero-content{
+        max-width: 100%;
+    }
+
+    .hero-content h1{
+        font-size: 48px;
+    }
+
+    .hero-content h2{
+        font-size: 25px;
+    }
+
+    .hero-content p{
+        max-width: 100%;
+        font-size: 16px;
+    }
+
+    .hero-buttons{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .hero-image{
+        width: 100%;
+    }
+
+    .hero-image img{
+        width: 300px;
+        height: 300px;
+    }
+}
