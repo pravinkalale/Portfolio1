@@ -89,6 +89,7 @@ header {
 .hero {
     min-height: 85vh;
     display: flex;
+    flex-direction: row-reverse;
     align-items: center;
     justify-content: space-between;
     padding: 50px 8%;
