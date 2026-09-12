@@ -45,6 +45,12 @@ header {
 
 /* Navigation Links */
 
+.nav-menu{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
 .nav-links {
     display: flex;
     list-style: none;
@@ -587,14 +593,30 @@ header {
 
 @media (max-width: 768px){
 
-    /* Navbar */
+     /* Navbar */
 
     header{
         padding:20px 5%
     }
 
     .navbar{
+        flex-direction: row;
+        gap: 0;
+    }
+
+    .menu-btn {
+    
+        display: block;
+    }
+
+    .nav-menu{
+        display: none;
+    }
+
+    .nav-menu.active{
+        display: flex;
         flex-direction: column;
+        align-items: center;
         gap: 20px;
     }
 
@@ -606,6 +628,10 @@ header {
 
     .nav-links a{
         font-size: 14px;
+    }
+
+    .nav-links{
+        display: none;
     }
 
     .hire-btn{
@@ -651,5 +677,153 @@ header {
     .hero-image img{
         width: 300px;
         height: 300px;
+    }
+
+    /* About */
+
+    .about-section {
+        min-height: auto;
+        padding: 60px 5%;
+    }   
+
+    .about-content h2{
+        font-size: 34px;
+    }
+
+    /* skills */
+
+    .skills-section{
+        min-height: auto;
+        padding: 60px 5%;
+    }
+
+    .skills-content h2{
+        font-size: 34px;
+    }
+
+    /* projects */
+
+    .projects-section{
+        min-height: auto;
+        padding: 60px 5%;
+    }
+
+    .projects-content h2{
+        font-size: 34px;
+    }
+
+    .project-card{
+        width: 100%;
+        max-width: 500px;
+    }
+
+    /* Education */
+
+    .education-section{
+        min-height: auto;
+        padding: 60px 5%;
+    }
+
+    .education-content h2{
+        font-size: 34px;
+    }
+
+    .education-card{
+        width: 100%;
+        max-width: 500px;
+    }
+
+    /* Contact */
+
+    .contact-section{
+        min-height: auto;
+        padding: 60px 5%;
+    }
+
+    .contact-content h2{
+        font-size: 34px;
+    }
+
+    .contact-card{
+        width: 100%;
+        max-width: 400px;
+    }
+
+ 
+}
+
+
+@media (max-width: 480px) {
+
+    .hero-content h1 {
+        font-size: 40px;
+    }
+
+    .hero-content h2 {
+        font-size: 21px;
+    }
+
+    .hero-image img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .primary-btn,
+    .secondary-btn {
+        width: 100%;
+        max-width: 280px;
+    }
+
+    .about-content h2,
+    .skills-content h2,
+    .projects-content h2,
+    .education-content h2,
+    .contact-content h2 {
+        font-size: 30px;
+    }
+
+    .project-card,
+    .education-card {
+        padding: 25px 20px;
+    }
+
+}
+
+/* ===== Hamburger Menu ===== */
+
+.menu-btn {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px){
+
+    .navbar{
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 0;
+    }
+    .menu-btn{
+        display: block;
+    }
+
+    .nav-menu{
+        display: none;
+        width: 100%;
+    }
+
+    .nav-menu.active{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
     }
 }
